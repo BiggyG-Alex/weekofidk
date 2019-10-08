@@ -92,19 +92,56 @@ even five lines long """)
 print("here are the months: %r" % months)
 print("here are the months: %s" % months)
 
+# escape sequences redux
+tabbyCat = "\tI'm tabbed in."
+persianCat = "I'm split \non a line."
+backslashCat = "I'm \\ a \\ cat."
+topCat = """
+I'll do a list: 
+\t* Cat Food
+\t* Fishies
+\t* Catnip\n\t*Grass
+"""
 
 
+print(tabbyCat)
+print(persianCat)
+print(backslashCat)
+print(topCat)
 
-
-
-
-
-
-
-
-
-
-
-
+# escape Seq         What it does?
+# \\
+# \'
+# \"
+# \a
+# \b
+# \f
+# \n
+# \N{name}
+# \r
+# \t
+# \uxxxx
+# \Uxxxxxxxx
+# \v
+# \ooo
+# \xhh
+# \
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
 
 
